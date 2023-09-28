@@ -1,8 +1,10 @@
 import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
+import netflix from "./images/projects/netflix.jpg";
+import appleBootstrap from "./images/projects/apple-bootstrap.jpeg";
+import appleReact from "./images/projects/apple-react.jpeg";
+import amazon from "./images/projects/amazon.jpeg";
+import snake from "./images/projects/snake-game.jpeg";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
@@ -17,9 +19,11 @@ export {
 	logo2,
 	bannerImg2,
 	bannerImg,
-	projectOne,
-	projectTwo,
-	projectThree,
+	snake,
+	amazon,
+	netflix,
+	appleBootstrap,
+	appleReact,
 	testimonialOne,
 	testimonialTwo,
 	quote,

@@ -5,7 +5,6 @@ import ContactLeft from "./ContactLeft";
 
 function Contact() {
 	const [username, setUsername] = useState("");
-	const [phoneNumber, setPhoneNumber] = useState("");
 	const [email, setEmail] = useState("");
 
 	const [message, setMessage] = useState("");
@@ -24,8 +23,6 @@ function Contact() {
 		e.preventDefault();
 		if (username === "") {
 			setErrMsg("Username is required!");
-		} else if (phoneNumber === "") {
-			setErrMsg("Phone number is required!");
 		} else if (email === "") {
 			setErrMsg("Please give your Email!");
 		} else if (!emailValidation(email)) {
@@ -38,7 +35,7 @@ function Contact() {
 			);
 			setErrMsg("");
 			setUsername("");
-			setPhoneNumber("");
+
 			setEmail("");
 
 			setMessage("");
@@ -59,7 +56,7 @@ function Contact() {
 						<div className="w-full lgl:w-[60%] h-full py-10  bg-gradient-to-r from-[#d9d9d9] to-[#ffffff] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg">
 							<form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
 								<div className="w-full flex flex-col lgl:flex-row gap-10">
-									<div className="w-full lgl:w-1/2 flex flex-col gap-4">
+									<div className="w-full flex flex-col gap-4">
 										<p className="text-sm text-gray-600 uppercase tracking-wide">
 											YOUR NAME
 										</p>
@@ -68,20 +65,6 @@ function Contact() {
 											value={username}
 											className={`${
 												errMsg === "Username is required!" &&
-												"outline-designColor border-b-transparent"
-											} contactInput`}
-											type="text"
-										/>
-									</div>
-									<div className="w-full lgl:w-1/2 flex flex-col gap-4">
-										<p className="text-sm text-gray-600 uppercase tracking-wide">
-											phone number
-										</p>
-										<input
-											onChange={(e) => setPhoneNumber(e.target.value)}
-											value={phoneNumber}
-											className={`${
-												errMsg === "Phone number is required!" &&
 												"outline-designColor border-b-transparent"
 											} contactInput`}
 											type="text"
@@ -117,8 +100,8 @@ function Contact() {
 												errMsg === "Message is required!" &&
 												"outline-designColor border-b-transparent"
 											} contactTextArea`}
-											cols="20"
-											rows="5"
+											cols="15"
+											rows="2"
 										></textarea>
 									</div>
 								</div>

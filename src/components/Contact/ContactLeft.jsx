@@ -10,10 +10,8 @@ function ContactLeft() {
 					MERN Stack Developer
 				</p>
 				<p className="text-base text-gray-800 tracking-wide">
-					I am currently available for freelance projects, and I'm excited to
-					collaborate with you to bring your project to life. With my skills and
-					expertise in full-stack web development, I'm well-equipped to handle a
-					wide range of tasks and challenges.
+					I am available for freelance projects. Hire me and get your project
+					done.
 				</p>
 				<p className="text-base text-gray-800 flex items-center gap-2">
 					Phone: <span className="text-lightText">+251965640602</span>

@@ -1,7 +1,13 @@
 import React from "react";
 import Titles from "../Layout/Titles";
 import { FadeIn } from "../Banner/FadeIn";
-import { projectOne, projectThree, projectTwo } from "../../assets";
+import {
+	appleReact,
+	appleBootstrap,
+	netflix,
+	snake,
+	amazon,
+} from "../../assets";
 import ProjectsCard from "./ProjectsCard";
 
 function Projects() {
@@ -19,40 +25,41 @@ function Projects() {
 				</div>
 				<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
 					<ProjectsCard
-						title="SOCIAL MEDIA CLONE"
-						des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-						src={projectOne}
+						title="Netflix Clone"
+						des="Created a React-based Netflix clone, demonstrating web development skills and responsive UI design."
+						src={netflix}
+						git={"https://github.com/YerosenHunduma/Netflix-clone"}
+						web={"https://netflix-yerosen.web.app/"}
 					/>
 					<ProjectsCard
-						title="E-commerce Website"
-						des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-						src={projectTwo}
+						title="Apple website with React"
+						des="Constructed an apple website again using React. Demonstrated meticulous attention to detail and proficiency in complex layouts and interactivity."
+						src={appleReact}
+						git={"https://github.com/YerosenHunduma/Apple-react-function-based"}
+						web={"https://apple-clone-yero.netlify.app/"}
 					/>
 					<ProjectsCard
-						title="Chatting App"
-						des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-						src={projectThree}
+						title="Apple website using Bootstrap"
+						des="Designed and constructed an Apple website clone with HTML, CSS, Bootstrap, and JavaScript"
+						src={appleBootstrap}
+						git={
+							"https://github.com/YerosenHunduma/Apple.com-HomePage_Bootstrap"
+						}
+						web={"https://apple-clone-bootstrap.netlify.app"}
 					/>
 					<ProjectsCard
-						title="SOCIAL MEDIA CLONE"
-						des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-						src={projectThree}
+						title="Amazon CLONE front-end built with react"
+						des="Recreate the Amazon shopping experience with a front-end clone, offering a user-friendly interface for browsing, searching, and discovering a wide range of products."
+						src={amazon}
+						git={"https://github.com/YerosenHunduma/Amazon-clone"}
+						web={"https://amazon-clone-yero.netlify.app"}
 					/>
 					<ProjectsCard
-						title="E-commerce Website"
-						des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-						src={projectOne}
-					/>
-					<ProjectsCard
-						title="Chatting App"
-						des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-						src={projectTwo}
+						title="Simple Nokia snake game using vanila Js"
+						des="Enjoy a throwback to the Nokia Snake game era with my simple Vanilla JavaScript version. Control the snake, collect food, and challenge your skills in this iconic gaming experience."
+						src={snake}
+						git={"https://github.com/YerosenHunduma/snake-game"}
+						web={"https://simple-nokia-snake-game.netlify.app"}
 					/>
 				</div>
 			</FadeIn>

@@ -13,11 +13,11 @@ function Service() {
 			className="w-full py-20  border-b-[1px] border-b-gray-400"
 		>
 			<FadeIn>
-				<Titles title="Service" des="Services what I offer" />
+				<Titles title="Services" des="What I Offer" />
 				<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
 					<Card
 						title="Web App Development"
-						des="Design and create websites or web app using programming languages, markup languages,and other technologies."
+						des="Design and create websites or web app using programming languages,markup languages,and other technologies."
 						icon={<FaHtml5 />}
 					/>
 					<Card

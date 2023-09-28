@@ -13,25 +13,25 @@ import { FadeIn } from "./FadeIn";
 
 function LeftBanner() {
 	const [text] = useTypewriter({
-		words: ["React Dev.", "Full Stack Dev.", "Freelancer."],
+		words: ["Full Stack Dev.", "Freelancer."],
 		loop: true,
-		typeSpeed: 20,
-		deleteSpeed: 10,
+		typeSpeed: 30,
+		deleteSpeed: 20,
 		delaySpeed: 2000,
 	});
 	return (
 		<FadeIn className="w-full lgl:w-1/2 flex flex-col gap-20">
 			<div className="flex flex-col gap-5">
 				<h4 className=" text-lg font-normal">Get to know me</h4>
-				<h1 className="text-6xl font-bold text-black">
+				<h3 className="text-4xl font-bold text-black">
 					Hi, I'm
-					<span className="text-designColor capitalize">Yerosen Hunduma</span>
-				</h1>
+					<span className="text-designColor capitalize"> Yerosen Hunduma</span>
+				</h3>
 				<h2 className="text-4xl font-bold text-black">
 					<span>a {text}</span>
 					<Cursor cursorStyle="|" cursorColor="#ff014f" />
 				</h2>
-				<p className="text-base font-bodyFont leading-6 tracking-wider">
+				<p className="text-justify font-bodyFont leading-6 tracking-wider text-gray-700">
 					I'm a skilled and enthusiastic web developer who combines technical
 					expertise with a keen eye for design. With proficiency in front-end
 					and back-end development, I create stunning websites that engage and

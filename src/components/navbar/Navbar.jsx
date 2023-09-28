@@ -2,13 +2,8 @@ import { useState } from "react";
 import { logo } from "../../assets/index";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import {
-	FaTelegram,
-	FaInstagram,
-	FaLinkedinIn,
-	FaWhatsapp,
-} from "react-icons/fa";
-import { logo2 } from "../../assets/index";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+
 import { Link } from "react-scroll";
 import { navLinksdata } from "../../constants";
 function Navbar() {
@@ -45,7 +40,7 @@ function Navbar() {
 					<div className="w-[80%] h-screen mdl:hidden rounded-lg overflow-scroll absolute top-0 left-0 bg-[#E8EDF0]/70 backdrop-blur-2xl p-4 scrollbar-hide">
 						<div className="flex flex-col gap-8 py-2 relative">
 							<div className=" flex justify-between border-b-[1px] border-b-gray-700 pb-1">
-								<img className="w-32" src={logo2} alt="logo" />
+								<img className="w-32" src={logo} alt="logo" />
 								<span
 									onClick={() => setShowMenu(false)}
 									className="bg-white text-gray-400 hover:text-designColor duration-300 text-2xl rounded-full w-10 h-10 cursor-pointer flex justify-center items-center"
@@ -107,7 +102,7 @@ function Navbar() {
 					offset={-70}
 					duration={500}
 				>
-					<img className="w-40 pr-10" src={logo2} alt="logo" />
+					<img className="w-40 pr-4" src={logo} alt="logo" />
 				</Link>
 			</div>
 		</div>

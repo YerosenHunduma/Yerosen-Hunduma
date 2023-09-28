@@ -1,12 +1,12 @@
 import { BsGithub } from "react-icons/bs";
 import { TbWorldWww } from "react-icons/tb";
 
-function ProjectsCard({ title, des, src }) {
+function ProjectsCard({ title, des, src, git, web }) {
 	return (
-		<div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-[#8c8c8c] flex flex-col bg-gradient-to-r from-[#d9d9d9] to-[#ffffff] group hover:bg-gradient-to-b hover:from-[#d9d9d9] hover:[#ffffff] transition-colors duration-1000">
+		<div className="w-full p-4 xl:px-8 h-auto xl:py-8 rounded-lg shadow-[#8c8c8c] flex flex-col bg-gradient-to-r from-[#d9d9d9] to-[#ffffff] group hover:bg-gradient-to-b hover:from-[#d9d9d9] hover:[#ffffff] transition-colors duration-1000">
 			<div className="w-full h-[80%] overflow-hidden rounded-lg">
 				<img
-					className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
+					className="w-full h-60 object-fit group-hover:scale-110 duration-300 cursor-pointer"
 					src={src}
 					alt="src"
 				/>
@@ -18,12 +18,12 @@ function ProjectsCard({ title, des, src }) {
 							{title}
 						</h3>
 						<div className="flex gap-2">
-							<a href="https://github.com/noorjsdivs" target="_blank">
+							<a href={git} target="_blank">
 								<span className="text-lg w-10 h-10 rounded-full bg-gray-700 inline-flex justify-center items-center text-white hover:text-designColor duration-300 cursor-pointer">
 									<BsGithub />
 								</span>
 							</a>
-							<a href="https://www.youtube.com/@reactjsBD" target="_blank">
+							<a href={web} target="_blank">
 								<span className="text-lg w-10 h-10 rounded-full bg-gray-700 inline-flex justify-center items-center text-white hover:text-designColor duration-300 cursor-pointer">
 									<TbWorldWww />
 								</span>

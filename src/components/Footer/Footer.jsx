@@ -8,14 +8,14 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { FadeIn } from "../Banner/FadeIn";
-import { logo2 } from "../../assets";
+import { logo } from "../../assets";
 import { navLinksdata } from "../../constants";
 
 const Footer = () => {
 	return (
 		<FadeIn className="w-full py-10  h-auto flex flex-col lgl:flex-row justify-between border-b-[1px] border-b-gray-400  gap-8">
 			<div className="w-full lgl:w-[50%] h-full flex flex-col gap-8">
-				<img className="w-32" src={logo2} alt="logo" />
+				<img className="w-32" src={logo} alt="logo" />
 				<div className=" gap-4  grid grid-cols-3 lgl:grid-cols-5">
 					<a
 						href="https://instagram.com/_yerilax?igshid=OGQ5ZDc2ODk2ZA==
