@@ -12,20 +12,26 @@ import contactImg from "./images/contact/contactImg.png";
 import logo2 from "./images/yyyy.png";
 import logo1 from "./images/yyyyvdfb.png";
 import bannerImg2 from "./images/bannerImg2.png";
+import profBanner from "./images/profBanner.png";
+import forum from "./images/evangadiForum.png";
+import asset from "./images/assetbanner.png";
 
 export {
-	logo,
-	logo1,
-	logo2,
-	bannerImg2,
-	bannerImg,
-	snake,
-	amazon,
-	netflix,
-	appleBootstrap,
-	appleReact,
-	testimonialOne,
-	testimonialTwo,
-	quote,
-	contactImg,
+  asset,
+  forum,
+  logo,
+  logo1,
+  logo2,
+  profBanner,
+  bannerImg2,
+  bannerImg,
+  snake,
+  amazon,
+  netflix,
+  appleBootstrap,
+  appleReact,
+  testimonialOne,
+  testimonialTwo,
+  quote,
+  contactImg,
 };
