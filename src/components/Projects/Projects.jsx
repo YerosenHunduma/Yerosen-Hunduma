@@ -9,6 +9,7 @@ import {
   forum,
   asset,
 } from "../../assets";
+
 import ProjectsCard from "./ProjectsCard";
 
 function Projects() {
@@ -26,27 +27,24 @@ function Projects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
-            title="Netflix Clone"
-            des="Created a React-based Netflix clone, demonstrating web development skills and responsive UI design."
-            src={netflix}
-            git={"https://github.com/YerosenHunduma/Netflix-clone"}
-            web={"https://netflix-yerosen.web.app/"}
+            title="Bits Shop"
+            des="Bits Shop is an online marketplace for students to easily buy and sell products. It features a bidding system that allows users to get the best deals on items."
+            src="./project2.png"
+            git={"https://github.com/Yordaaa/BITS_SHOP"}
+            web={"https://bits-shop.vercel.app"}
           />
           <ProjectsCard
-            title="Apple website with React"
-            des="Constructed an apple website again using React. Demonstrated meticulous attention to detail and proficiency in complex layouts and interactivity."
-            src={appleReact}
-            git={"https://github.com/YerosenHunduma/Apple-react-function-based"}
-            web={"https://apple-clone-yero.netlify.app/"}
+            title="Power Ethiopia"
+            des="Power Ethiopia is an online platform offering renewable energy training and an e-commerce shop for sustainable energy products. It combines education with commerce to empower users and promote a greener future."
+            src="./project6.png"
+            web={"https://testfront1.powerethio.com"}
           />
           <ProjectsCard
-            title="Apple website using Bootstrap"
-            des="Designed and constructed an Apple website clone with HTML, CSS, Bootstrap, and JavaScript"
-            src={appleBootstrap}
-            git={
-              "https://github.com/YerosenHunduma/Apple.com-HomePage_Bootstrap"
-            }
-            web={"https://apple-clone-bootstrap.netlify.app"}
+            title="Maveko"
+            des="Maveko is an online platform where users can request product quotes from companies. Users specify their needs, and companies reply with prices and details."
+            src="./project3.png"
+            git={"https://github.com/Yordaaa/Marketplace_Frontend"}
+            web={"https://maveko.vercel.app"}
           />
           <ProjectsCard
             title="Amazon CLONE front-end built with react"

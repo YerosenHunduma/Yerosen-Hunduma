@@ -6,7 +6,7 @@ function ProjectsCard({ title, des, src, git, web }) {
 		<div className="w-full p-4 xl:px-8 h-auto xl:py-8 rounded-lg shadow-[#8c8c8c] flex flex-col bg-gradient-to-r from-[#d9d9d9] to-[#ffffff] group hover:bg-gradient-to-b hover:from-[#d9d9d9] hover:[#ffffff] transition-colors duration-1000">
 			<div className="w-full h-[80%] overflow-hidden rounded-lg">
 				<img
-					className="w-full h-60 object-fit group-hover:scale-110 duration-300 cursor-pointer"
+					className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
 					src={src}
 					alt="src"
 				/>
