@@ -58,14 +58,13 @@ function Projects() {
             des="Asset MarketSquare introduces online marketplace addressing the inefficiencies of traditional asset brokering systems."
             src={asset}
             git={"https://github.com/YerosenHunduma/backend"}
-            web={"https://assetmarketsquare.yerosen.com"}
+            web={"https://asset-marketsquare-react-jsou.onrender.com"}
           />
           <ProjectsCard
             title="EVANGADI FORUM IS A FULL-STACK WEB APP"
             des="Evangadi Forum is a web application that providing a platform for users to engage in community-driven discussions, share knowledge, and seek solutions to programming and tech-related queries."
             src={forum}
             git={"https://github.com/YerosenHunduma/forum-website"}
-            web={"https://evangadiforum.yerosen.com/"}
           />
         </div>
       </FadeIn>
