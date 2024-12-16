@@ -37,7 +37,7 @@ function Projects() {
             title="Power Ethiopia"
             des="Power Ethiopia is an online platform offering renewable energy training and an e-commerce shop for sustainable energy products. It combines education with commerce to empower users and promote a greener future."
             src="./project6.png"
-            web={"https://testfront1.powerethio.com"}
+            web={"https://powerethio.com"}
           />
           <ProjectsCard
             title="Maveko"
